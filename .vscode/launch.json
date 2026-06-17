@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Coffein}",
+            "name": "Debug Coffein",
+            "target": "Coffein",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Coffein"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Coffein}",
+            "name": "Release Coffein",
+            "target": "Coffein",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Coffein"
+        }
+    ]
+}
